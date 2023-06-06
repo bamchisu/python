@@ -1,15 +1,10 @@
 #!/usr/local/bin/python3
 
 import sys, os
-#os.system("taskset -p 0xfffff %d" % os.getpid())
 import random
 import time
 
 __version__="0.5"
-
-## following code is used for multiprocessing calculating within class
-#def unwrap_Matrix2D_det(object):
-#	return Matrix2D._det(object)
 
 class Matrix2D(object):
 	_matrix = [[]]
